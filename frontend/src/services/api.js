@@ -11,7 +11,7 @@ const getApiBaseUrl = () => {
   
   // If we're on Render production, use the actual backend URL
   // REPLACE THIS WITH YOUR ACTUAL BACKEND URL FROM RENDER:
-  return 'future_live_api_link.com/api';
+  return 'https://admin-panel-back-dhlc.onrender.com/api';
 };
 
 const API_BASE_URL = getApiBaseUrl();
